@@ -3,13 +3,13 @@
 # ![WebApp](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_1.png)
 
 
-
+<br><br>
 ## 프로젝트 주제
 
 실시간 항공 예약 사이트
 
 
-
+<br><br>
 ## 프로젝트 선정 배경
 
 <table>
@@ -21,7 +21,7 @@
 </table>
 
 
-
+<br><br>
 ## 개발 환경
 
 <table>
@@ -36,12 +36,12 @@
 </table>
 
 
-
+<br><br>
 ## 데모
 
 Here is a working live demo :  [Link](http://180.71.250.243:81/SupportForMe/)
 
-
+<br><br>
 ## 웹 화면 구성 및 관리자 UI(User Interface) 기능
 
       - 관리자 로그인 모드를 구성하여, 항공사이트 관리자 계정으로 접속할 시 사용자들이 Contact란의 이용 내역을 확인 할 수 있도록 일반 사용자들과 기능을 분할하여 구성하였다.
@@ -52,8 +52,8 @@ Here is a working live demo :  [Link](http://180.71.250.243:81/SupportForMe/)
 
       - Subscribe 정기레터 구독을 신청한 사용자들에 대한 소식지를 정기적으로 보낼 수 있도록 메일전송 페이지를 구성하였고, 신청한 사용자들의 메일 주소로 단체 전송이 가능하게 메일링 서비스를 구현하여, 관리자가 간편하고 쉽게 관리를 할 수 있도록 하였다.
 
-
-
+***
+<br><br>
 ### 실시간 운항 정보
 항공권 예매로 상용화된 스카이스캐너 사이트와 비교 했을 때 동일한 직항권에 대한 정보를 얻어 올 수 있다. 사용자가 출발지와 도착지를 선택 후 조회를 하면 현재 운항 가능한 항공편 정보가 출력된다.
 
@@ -62,71 +62,73 @@ Here is a working live demo :  [Link](http://180.71.250.243:81/SupportForMe/)
 ![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_2.png)
 
 
-
+<br><br>
 ### 공항 날씨
 사용자가 출발공항을 선택하면 해당 공항의 기온 및 풍속 날씨를 보여준다. 날씨는 Clear, Mostly Clear, Cloudy, Rain, Showers, Smog 로 구분되고 이를 JSONP 방식으로 받아 이미지로 보여준다.
 
 ![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_4.png)
 
 
-
+<br><br>
 ### 가까운 공항 찾기
 사용자의 현재 위치 반경 30마일 이내 가장 가까운 공항의 위도 경도 값을 가져온다. 반경은 더 큰 값을 줄 수 있다.
 
 ![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_5.png)
 
 
-
+<br><br>
 ### 항공기 등급
 실시간 항공편을 통해 예약한 사용자의 항공기가 정시에 출발 했는지, 지연 출발은 없었는지, 결항 회수는 몇 회인지 등을 고려하여 계산된 총점을 볼 수 있다.
 
 ![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_6.png)
 
 
-
+<br><br>
 ### 실시간 급상승
 메인 화면의 오른쪽 상단의 실시간 급상승의 기준은 사용자가 도착 나라 항공권 예약을 했을 때 조회수가 1씩 증가 된다. 나라 조회수가 높은 순위는 데이터베이스에서 오름차순으로 가져와 보여준다.
 
 ![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_7.png)
 
 
-
+<br><br>
 ### 예약 결제
 
 ![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_8.png)
 ![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_9.png)
 ![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_10.png)
-
-
+<br><br>
+***
 
 ### 관리자
 
+***
+<br><br>
 #### 문의 확인 정보
 
 ![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_11.png)
 
 
-
+<br><br>
 #### 회원 예약 관리 정보
 
 ![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_12.png)
 
 
-
+<br><br>
 #### 메일 전송 정보
 
 ![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_13.png)
 
 
-
+<br><br>
 ### 채팅
 
 ![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_14.png)
 
 ![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_15.png)
 
-
-
+***
+<br><br>
 ## 사용 API
 
 - [결제](https://github.com/iamport/iamport-manual) - 아임포트
@@ -137,7 +139,7 @@ Here is a working live demo :  [Link](http://180.71.250.243:81/SupportForMe/)
 - [FlightStats](https://developer.flightstats.com/?utm_source=flightstats&utm_medium=ResourcesMenuLink&utm_campaign=DeveloperCenter) - 항공 정보
 
 
-
+<br><br>
 ## 향후 발전 방향
 
 국제적 항공데이터들을 조금 더 수집하여, 보다 완벽한 항공권 이용을 할 수 있도록 지속적으로 보완할 예정이다. 
@@ -145,14 +147,14 @@ Here is a working live demo :  [Link](http://180.71.250.243:81/SupportForMe/)
 소통을 강화하여 질 높은 서비스 제공을 위한 노력을 할 것이다.
 
 
-
+<br><br>
 ## Team
 
 [![정현욱](https://dlehdrjs36.github.io/SupportForMe/DemoImages/대체이미지.jpg)](https://github.com/)  | [![문준영](https://dlehdrjs36.github.io/SupportForMe/DemoImages/대체이미지.jpg)](https://github.com/)  | [![이동건](https://dlehdrjs36.github.io/SupportForMe/DemoImages/대체이미지.jpg)](https://github.com/dlehdrjs36)  
 ---|---|---
 [정현욱](https://github.com/) |[문준영](https://github.com/) |[이동건](https://github.com/dlehdrjs36) 
 
-
-## [License](https://github.com/dlehdrjs36/SupportForMe/blob/master/LICENSE.md)
+<br><br>
+## [License](https://github.com/dlehdrjs36/travel/blob/master/LICENSE.md)
 
 MIT ©[dlehdrjs36](https://github.com/dlehdrjs36)
