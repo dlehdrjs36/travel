@@ -103,27 +103,27 @@ Here is a working live demo :  [Link](http://180.71.250.243:81/SupportForMe/)
 
 #### 문의 확인 정보
 
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_11.png)
+![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_11.png)
 
 
 
 #### 회원 예약 관리 정보
 
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_12.png)
+![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_12.png)
 
 
 
 #### 메일 전송 정보
 
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_13.png)
+![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_13.png)
 
 
 
 ### 채팅
 
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_14.png)
+![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_14.png)
 
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_15.png)
+![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_15.png)
 
 
 
@@ -150,7 +150,7 @@ Here is a working live demo :  [Link](http://180.71.250.243:81/SupportForMe/)
 
 [![정현욱](https://dlehdrjs36.github.io/SupportForMe/DemoImages/대체이미지.jpg)](https://github.com/)  | [![문준영](https://dlehdrjs36.github.io/SupportForMe/DemoImages/대체이미지.jpg)](https://github.com/)  | [![이동건](https://dlehdrjs36.github.io/SupportForMe/DemoImages/대체이미지.jpg)](https://github.com/dlehdrjs36)  
 ---|---|---
-[오상민](https://github.com/) |[이동건](https://github.com/dlehdrjs36) |[김혜연](https://github.com/) 
+[](https://github.com/) |[이동건](https://github.com/dlehdrjs36) |[김혜연](https://github.com/) 
 
 
 ## [License](https://github.com/dlehdrjs36/SupportForMe/blob/master/LICENSE.md)
