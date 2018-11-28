@@ -2,9 +2,13 @@
 
 # ![WebApp](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_1.png)
 
+
+
 ## 프로젝트 주제
 
 실시간 항공 예약 사이트
+
+
 
 ## 프로젝트 선정 배경
 
@@ -15,6 +19,8 @@
 </td>
 </tr>
 </table>
+
+
 
 ## 개발 환경
 
@@ -29,9 +35,12 @@
 <tr>                        <td>보조 기억장치</td><td>HDD 368GB</td></tr>
 </table>
 
+
+
 ## 데모
 
 Here is a working live demo :  [Link](http://180.71.250.243:81/SupportForMe/)
+
 
 ## 웹 화면 구성 및 관리자 UI(User Interface) 기능
 
@@ -44,90 +53,77 @@ Here is a working live demo :  [Link](http://180.71.250.243:81/SupportForMe/)
       - Subscribe 정기레터 구독을 신청한 사용자들에 대한 소식지를 정기적으로 보낼 수 있도록 메일전송 페이지를 구성하였고, 신청한 사용자들의 메일 주소로 단체 전송이 가능하게 메일링 서비스를 구현하여, 관리자가 간편하고 쉽게 관리를 할 수 있도록 하였다.
 
 
+
 ### 실시간 운항 정보
 항공권 예매로 상용화된 스카이스캐너 사이트와 비교 했을 때 동일한 직항권에 대한 정보를 얻어 올 수 있다. 사용자가 출발지와 도착지를 선택 후 조회를 하면 현재 운항 가능한 항공편 정보가 출력된다.
+
+![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_3.png)
 
 ![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_2.png)
 
 
-### 더보기 화면
-카테고리별로 진행중인 전체 프로젝트를 볼 수 있다.
 
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_2.png)
+### 공항 날씨
+사용자가 출발공항을 선택하면 해당 공항의 기온 및 풍속 날씨를 보여준다. 날씨는 Clear, Mostly Clear, Cloudy, Rain, Showers, Smog 로 구분되고 이를 JSONP 방식으로 받아 이미지로 보여준다.
 
-
-
-
-
-### 프로젝트 상세화면
-해당 프로젝트의 구체적인 내용을 확인할 수 있다.
-
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_3.png)
+![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_4.png)
 
 
 
+### 가까운 공항 찾기
+사용자의 현재 위치 반경 30마일 이내 가장 가까운 공항의 위도 경도 값을 가져온다. 반경은 더 큰 값을 줄 수 있다.
 
-
-### 프로젝트 등록화면
-프로젝트를 만든다. 일부 내용만 입력하고 저장하면 프로젝트가 제작중인 상태로, 프로젝트에 필요한 모든 사항들을 입력하고 등록하면 프로젝트 상태가 진행중으로 바뀐다.
-
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_13.png)
-
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_14.png)
-
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_15.png)
-
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_16.png)
+![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_5.png)
 
 
 
+### 항공기 등급
+실시간 항공편을 통해 예약한 사용자의 항공기가 정시에 출발 했는지, 지연 출발은 없었는지, 결항 회수는 몇 회인지 등을 고려하여 계산된 총점을 볼 수 있다.
 
-
-### 로그인 화면
-
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_4.png)
-
-
+![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_6.png)
 
 
 
-### 아이디 찾기
+### 실시간 급상승
+메인 화면의 오른쪽 상단의 실시간 급상승의 기준은 사용자가 도착 나라 항공권 예약을 했을 때 조회수가 1씩 증가 된다. 나라 조회수가 높은 순위는 데이터베이스에서 오름차순으로 가져와 보여준다.
 
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_5.png)
-
-
-
-
-
-### 비밀번호 찾기
-
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_6.png)
+![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_7.png)
 
 
 
+### 예약 결제
 
-
-### 회원 - 마이페이지
-
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_7.png)
-
-
+![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_8.png)
+![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_9.png)
+![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_10.png)
 
 
 
-### 관리자 화면
+### 관리자
 
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_8.png)
-
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_9.png)
-
-![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_10.png)
+#### 문의 확인 정보
 
 ![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_11.png)
+
+
+
+#### 회원 예약 관리 정보
 
 ![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_12.png)
 
 
+
+#### 메일 전송 정보
+
+![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_13.png)
+
+
+
+### 채팅
+
+![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_14.png)
+
+![](https://dlehdrjs36.github.io/SupportForMe/DemoImages/DemoImage_15.png)
 
 
 
@@ -135,14 +131,26 @@ Here is a working live demo :  [Link](http://180.71.250.243:81/SupportForMe/)
 
 - [결제](https://github.com/iamport/iamport-manual) - 아임포트
 - [주소 검색](https://github.com/daumPostcode/QnA) - 다음 주소 검색
-- [WYSIWYG Editor](http://naver.github.io/smarteditor2/) - 네이버 스마트 에디터 2
+- [썸머노트](https://github.com/summernote/summernote) - 썸머노트
+- [구글 맵](https://github.com/googlemaps/google-maps-services-go) - 지도 정보
+- [Bing Web Search](https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/cognitive-services/Bing-Web-Search/tutorial-bing-web-search-single-page-app.md) - Bing Web Search
+- [FlightStats](https://developer.flightstats.com/?utm_source=flightstats&utm_medium=ResourcesMenuLink&utm_campaign=DeveloperCenter) - 항공 정보
+
+
+
+## 향후 발전 방향
+
+국제적 항공데이터들을 조금 더 수집하여, 보다 완벽한 항공권 이용을 할 수 있도록 지속적으로 보완할 예정이다. 
+각 항공사가 특정하게 제공하는 서비스들을 참고 분석하여, 사이트 유저들이 비교하여 이용 할 수 있도록 하는 서비스 비교 및 안내 기능을 추가하여 보다 자세하고 편리한 서비스 이용에 도움이 되게 할 것이다. 그리고 고객후기, 서비스 이용 평점기능란을 따로 구성하여, 고객들의 요구사항과 보완할 점 등의
+소통을 강화하여 질 높은 서비스 제공을 위한 노력을 할 것이다.
+
 
 
 ## Team
 
-[![오상민](https://dlehdrjs36.github.io/SupportForMe/DemoImages/대체이미지.jpg)](https://github.com/osm2112)  | [![이동건](https://dlehdrjs36.github.io/SupportForMe/DemoImages/대체이미지.jpg)](https://github.com/dlehdrjs36)  | [![김혜연](https://dlehdrjs36.github.io/SupportForMe/DemoImages/대체이미지.jpg)](https://github.com/)  | [![김효정](https://dlehdrjs36.github.io/SupportForMe/DemoImages/대체이미지.jpg)](https://github.com/)
----|---|---|---
-[오상민](https://github.com/osm2112) |[이동건](https://github.com/dlehdrjs36) |[김혜연](https://github.com/) |[김효정](https://github.com/)
+[![정현욱](https://dlehdrjs36.github.io/SupportForMe/DemoImages/대체이미지.jpg)](https://github.com/)  | [![문준영](https://dlehdrjs36.github.io/SupportForMe/DemoImages/대체이미지.jpg)](https://github.com/)  | [![이동건](https://dlehdrjs36.github.io/SupportForMe/DemoImages/대체이미지.jpg)](https://github.com/dlehdrjs36)  
+---|---|---
+[오상민](https://github.com/) |[이동건](https://github.com/dlehdrjs36) |[김혜연](https://github.com/) 
 
 
 ## [License](https://github.com/dlehdrjs36/SupportForMe/blob/master/LICENSE.md)
