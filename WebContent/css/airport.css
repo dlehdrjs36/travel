@@ -1,0 +1,630 @@
+/* rank.css*/
+#rank a {
+    color: black; /*글자색*/
+    text-decoration: none;
+}
+#rank a:hover { /*검색어 마우스 올릴시 밑줄 언더라인*/
+    text-decoration: underline;
+}
+
+#rank { /*구역 부분 위치조정*/
+    overflow: hidden;
+    width: 200px;
+    height: 150px; 
+    margin: 0;
+}
+
+#rank ul {
+    position: relative;
+    margin: 0;
+    width: 200px;
+}
+
+#rank ol { /* 글자 위치 부분 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;    
+}
+#rank li { /* 순위 문장 사이의 거리 */
+    height: 35px;
+    line-height: 35px;
+}
+/* login.css*/
+/* Full-width input fields */
+body, html {height: 100%}
+input.typetext, input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+/* Set a style for all buttons */
+button.bt{
+    background-color: white;
+    color: black;
+    padding: 14px 20px; 
+    margin: 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  	font-weight: bold;
+}
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+.bttn {
+	width:100%;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 5; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    height: 900px;
+    width: 50%; /* Could be more or less, depending on screen size */
+}
+.bgimg {
+    background-image: url('../w3images/forestbridge.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.bgimg1 {
+    background-image: url('../w3images/hosu.jpg'); /* subscribe 배경화면 부분  */
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.bgimg2 {
+    background-image: url('../w3images/sea.jpg'); /* contact 배경화면부분  */
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+/*AirportList.css*/
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Jua');
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 800px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.dropdown2-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 800px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.dropdown3-content {
+    display: inline-block;
+    position: absolute;
+    background-color: #efefef;
+    min-width: 1000px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 0;
+    width: 1300px;   
+} 
+.dropdown4-content {
+    display: inline-block;
+    position: absolute;
+    background-color: #efefef;
+    min-width: 1000px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 0;
+    width: 1000px;
+    
+} 
+a.no-uline { text-decoration:none }
+.btn:hover {
+    opacity: 1;
+}
+.centerednone {
+	/* display: none; */
+	visibility: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	position: relative;
+}
+.centered-map {
+	width: 1200px;
+	
+}
+
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 120%;  /* 박스 넓이 */
+    margin-bottom: 50px;
+    /* font-family: 'Jua', sans-serif; */ /* 이부분 적용 받고있음 컨테이너  */
+}
+.relative {
+    position: relative;
+    display: inline-block;
+}
+h4 { /* 여행장소 컨테인 정렬  */
+	text-align : left;	
+}
+.parante {
+	border: 2px solid #006fff;
+	
+}
+select {
+	border: 2px solid #a398a9;
+	 font-size: 15px;
+	 background-color: #e8e8e8;
+	 border-radius: 12px;
+}
+input.input {
+	border: 2px solid #c5bebe;	
+	background-color: #e8e8e8;
+}
+input.input2 {
+	border: 2px solid #a398a9;	 
+	background-color: #e8e8e8;
+	border-radius: 12px;
+}
+
+.centered {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	position:relative;
+}
+#btn {
+	width:100px;
+} 
+#btn2 {
+	width:100px;
+} 
+/* */
+#btn3 {
+	width:100px;
+} 
+/**/
+tr.trr {
+	border-bottom: 1px solid lightgrey;	
+}
+
+.topvar {
+	position: relative;
+	margin-left: 0px;
+	padding-bottom: 0px;
+	margin-botoom: 0px;
+	width: 202vh;
+	z-index: 3;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 15%;/* 
+  background-color: #f1f1f1; */
+  height: 100%;
+  overflow: auto;
+  position: fixed;/* 
+  opacity: 0.7;  */
+  
+}
+
+.sidebar:hover {
+	opacity: 1;
+	background-color: /* #FFC0CB; */
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #ED4C00;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.front {position:absolute;z-index:100;}
+.back {position:absolute;z-index:1;}
+ 
+.btn2 {
+    /* border: 2px solid black; */
+    background-color: white;
+    color: black;
+    /* padding: 14px 28px; */
+    font-size: 16px;
+    cursor: pointer;
+}
+.default {
+    border-color: #e7e7e7;
+    color: black;
+}
+
+
+/* searchView2.css */
+.icon { /* 아이콘 이미지 조절  */
+    padding: 10px;
+    /* font-size: 30px; */
+    background: #5d5151;
+    color: white;
+    min-width: 60px;
+    text-align: center;
+}
+
+
+.cal {
+    padding: 20px;
+    min-width: 80px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.input-field { /* 장소 박스 크기, 여백 */
+    width:80%; /* 박스들 사이 간격  */
+    padding: 10px;
+    outline: none;
+    
+}
+.input-field:focus { /* 박스 선택시 박스 테두리 */
+    /* border: 2px dashed red; */
+    border: 2px dashed black;
+}
+
+/* Set a style for the submit button */
+.btn { /* 조회버튼  */
+    background-color: green;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%; 
+    opacity: 0.9;
+    position: relative;
+    left : 25%;
+    font-size : 30px;
+}
+.btn:hover {
+    opacity: 1;
+}
+
+.num { /*성인 숫자  */
+	 width: 5%;
+	 height: 5%;
+	 text-align: center;
+	 font-size: 30px;
+	 opacity: 5;
+/* 	 padding: 5px; 
+ 	  */
+ 	  margin-top: 9px;
+}
+.seat { /* 좌석 숫자 */
+	 width: 66px;
+	 height: 42px;
+	 text-align: center;
+	 font-size: 20px;
+	 opacity: 5;
+}
+table.table,td.td,tr.tr {  border: 0px solid red; /* 테이블 선  */ 
+		width : 800px;
+		text-align : center;
+} 
+/* searchView.css */
+* {box-sizing: border-box}
+.mySlides {display: none}
+img.img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next2 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next2 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next2:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next2,.text {font-size: 11px}
+}
+.aaa {width : 300px;}
+.bbb {width : 500px;}
+/* */
+#_chatimage {
+	position: fixed;
+    bottom: 3%;
+	right: 1%;
+	width: 100px; 
+}
+#_chatbox {
+    position: fixed;
+    bottom: 15%;
+ 	right: 0%; 
+}
+ .font2 {
+	font-family: 'Gaegu', cursive;
+	font-size: 25px;
+}
+.font {
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 20px;
+}
+#content {
+    width: 200px;
+    position: absolute;
+    top: 7%;
+    right: 2%; 
+    border: 1px solid #c2becc;
+}
+/*airportRank */
+.starColor{color:#EDD200;}
+.prompt {
+    color: #f3f3f3;
+    line-height: 1.5;
+}
+input::placeholder {
+  color: black;
+  font-weight: bold;
+}
+.input-field1 { /* 장소 박스 크기, 여백 */
+    width:80%; /* 박스들 사이 간격  */
+    padding: 10px;
+    outline: none;    
+}
+
+
+.footer {   
+			width:100%;
+            position:relative; top:80%;
+            text-align:center;
+            font-size:15px;
+            background: #424040;
+            z-index:0; 
+}
+
+.footer h2 { color: #3498DB; }
+.footer a { color: #ABB2B9; }
+.footer i { color: #3498DB;}
+.footer small { color: white;}
+
+nav { float:left; }
+
+.m-flight-schedule{
+	border: 1px solid #ccc;
+	padding:5px;
+	border-radius: 10px;
+	opacity: 0.9;
+	position: relative;
+	top: 170px;
+	margin: 5px;
+}
+a { text-decoration:none }
+.ddTable td{
+	width:130px;
+	height:32px;
+}
+.welcome {
+	width:50px;
+}
+.reference{
+	border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 10px;
+/*     opacity: 0.9; */
+    position: absolute;
+    top: 45.5%;
+    margin: 5px;
+    right: 10%;
+    width: 250px;
+}

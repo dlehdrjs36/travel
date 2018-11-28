@@ -1,0 +1,23 @@
+server.xml 부분   
+    <Connector clientAuth="false" keystoreFile="C:/OpenSSL/bin/.keystore"
+    keystorePass="fan983" maxThreads="150" port="8443" 
+    protocol="org.apache.coyote.http11.Http11NioProtocol" 
+    scheme="https" secure="true" SSLEnabled="true" sslProtocol="TLS"/>
+        
+    
+web.xml 부분    
+	<security-constraint>   
+    <web-resource-collection>
+        <web-resource-name>SSL Forward</web-resource-name>
+        <url-pattern>/*</url-pattern>
+    </web-resource-collection>
+    <user-data-constraint>
+        <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+    </user-data-constraint>
+   </security-constraint>
+      
+   
+openssl 설정부분
+   http://namjackson.tistory.com/24       
+  
+   
