@@ -87,15 +87,15 @@ Here is a working live demo :  [Link](http://180.71.250.243:81/SupportForMe/)
 ### 실시간 급상승
 메인 화면의 오른쪽 상단의 실시간 급상승의 기준은 사용자가 도착 나라 항공권 예약을 했을 때 조회수가 1씩 증가 된다. 나라 조회수가 높은 순위는 데이터베이스에서 오름차순으로 가져와 보여준다.
 
-![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_7.png)
+![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_7.png)
 
 
 
 ### 예약 결제
 
-![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_8.png)
-![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_9.png)
-![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_10.png)
+![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_8.png)
+![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_9.png)
+![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_10.png)
 
 
 
@@ -103,27 +103,27 @@ Here is a working live demo :  [Link](http://180.71.250.243:81/SupportForMe/)
 
 #### 문의 확인 정보
 
-![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_11.png)
+![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_11.png)
 
 
 
 #### 회원 예약 관리 정보
 
-![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_12.png)
+![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_12.png)
 
 
 
 #### 메일 전송 정보
 
-![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_13.png)
+![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_13.png)
 
 
 
 ### 채팅
 
-![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_14.png)
+![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_14.png)
 
-![](https://github.com/dlehdrjs36/travel/blob/ㅇmaster/DemoImage/travel_15.png)
+![](https://github.com/dlehdrjs36/travel/blob/master/DemoImage/travel_15.png)
 
 
 
@@ -150,7 +150,7 @@ Here is a working live demo :  [Link](http://180.71.250.243:81/SupportForMe/)
 
 [![정현욱](https://dlehdrjs36.github.io/SupportForMe/DemoImages/대체이미지.jpg)](https://github.com/)  | [![문준영](https://dlehdrjs36.github.io/SupportForMe/DemoImages/대체이미지.jpg)](https://github.com/)  | [![이동건](https://dlehdrjs36.github.io/SupportForMe/DemoImages/대체이미지.jpg)](https://github.com/dlehdrjs36)  
 ---|---|---
-[](https://github.com/) |[이동건](https://github.com/dlehdrjs36) |[김혜연](https://github.com/) 
+[정현욱](https://github.com/) |[문준영](https://github.com/) |[이동건](https://github.com/dlehdrjs36) 
 
 
 ## [License](https://github.com/dlehdrjs36/SupportForMe/blob/master/LICENSE.md)
