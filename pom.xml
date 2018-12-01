@@ -28,6 +28,98 @@
 	<artifactId>ojdbc6</artifactId>
 	<version>12.1.0.1-atlassian-hosted</version>
 	</dependency>
+	<!-- commons-beanutils -->
+<dependency>
+    <groupId>commons-beanutils</groupId>
+    <artifactId>commons-beanutils</artifactId>
+    <version>1.9.2</version>
+</dependency>
+	
+	<!-- commons-collections -->
+<dependency>
+    <groupId>commons-collections</groupId>
+    <artifactId>commons-collections</artifactId>
+    <version>3.2.2</version>
+</dependency>
+	
+	<!-- commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version>
+</dependency>
+	
+	<!-- commons lang -->
+<dependency>
+    <groupId>commons-lang</groupId>
+    <artifactId>commons-lang</artifactId>
+    <version>2.6</version>
+</dependency>
+	
+	<!-- commons logging-->
+<dependency>
+    <groupId>commons-logging</groupId>
+    <artifactId>commons-logging</artifactId>
+    <version>1.2</version>
+</dependency>
+	
+	<!-- cos -->
+<dependency>
+    <groupId>com.servlets</groupId>
+    <artifactId>cos</artifactId>
+    <version>09May2002</version>
+</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/net.sf.ezmorph/ezmorph -->
+<dependency>
+    <groupId>net.sf.ezmorph</groupId>
+    <artifactId>ezmorph</artifactId>
+    <version>1.0.6</version>
+</dependency>
+	
+	<!-- servlet api -->
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>3.1.0</version>
+    <scope>provided</scope>
+</dependency>
+	
+
+
+	<!-- json -->
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
+	
+	<!-- jstl -->
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>jstl</artifactId>
+    <version>1.2</version>
+</dependency>
+	
+	<!-- 자바 메일 -->
+	<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>javax.mail-api</artifactId>
+    <version>1.4.7</version>
+</dependency>
+
+	<dependency>
+    <groupId>xalan</groupId>
+    <artifactId>xalan</artifactId>
+    <version>2.7.1</version>
+</dependency>
+
+<dependency>
+    <groupId>xerces</groupId>
+    <artifactId>xercesImpl</artifactId>
+    <version>2.9.1</version>
+</dependency>
+
 
 	</dependencies>
   <build>
