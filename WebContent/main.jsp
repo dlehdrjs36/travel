@@ -160,7 +160,7 @@
         
         var textarea = document.getElementById("messageWindow");
         /* var webSocket = new WebSocket('wss://192.168.0.73:8443/travel/broadcasting'); */
-        var webSocket = new WebSocket('wss://192.168.0.73:8443/travel/broadcasting'); 
+        var webSocket = new WebSocket('ws://localhost:8443/travel/broadcasting'); 
         var inputMessage = document.getElementById('inputMessage');
         
     	webSocket.onerror = function(event) {

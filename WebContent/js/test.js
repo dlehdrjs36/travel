@@ -23,7 +23,7 @@ $(document).ready(function() {
 		
 		console.log(from + to + date);
 		$.ajax({
-				url : "https://api.flightstats.com/flex/schedules/rest/v1/json/from/"+from+"/to/"+to+"/departing/"+date+"?appId=6d442315&appKey=301aa216b58dee04e31de0f4d5733590&extendedOptions=languageCode:ko",
+				url : "https://api.flightstats.com/flex/schedules/rest/v1/json/from/"+from+"/to/"+to+"/departing/"+date+"?appId=13c542ec&appKey=a0953c87ff93708450f70c95f9386cdc&extendedOptions=languageCode:ko",
 				dataType: 'json', 
 				success : function(datas) {
 					console.log(datas);

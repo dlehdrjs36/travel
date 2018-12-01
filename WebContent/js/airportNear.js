@@ -23,7 +23,7 @@ $(document).ready(function() {
 				longitude = position.coords.longitude;				
 				////////////////////////
 				$.ajax({
-					url: "https://api.flightstats.com/flex/airports/rest/v1/jsonp/withinRadius/" + longitude + "/" + latitude + "/30?appId=6d442315&appKey=301aa216b58dee04e31de0f4d5733590",
+					url: "https://api.flightstats.com/flex/airports/rest/v1/jsonp/withinRadius/" + longitude + "/" + latitude + "/30?appId=13c542ec&appKey=a0953c87ff93708450f70c95f9386cdc",
 					/*dataType: 'json',*/
 					dataType: 'jsonp',
 					jsonpCallback: "myCallback",
