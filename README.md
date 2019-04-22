@@ -39,7 +39,7 @@
 <br><br>
 ## 데모
 
-Here is a working live demo :  [Link]()
+~~[Link]()~~
 
 <br><br>
 ## 웹 화면 구성 및 관리자 UI(User Interface) 기능
